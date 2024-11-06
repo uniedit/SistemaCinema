@@ -16,7 +16,6 @@ namespace SistemaCinema {
     public partial class Sessões : Form {
         public Sessões() {
             InitializeComponent();
-            /*
             // Filme 1
             Venom();
             // Filme 2
@@ -25,7 +24,6 @@ namespace SistemaCinema {
             YourName();
             // Filme 4
             MinhaMae();
-            */
         }
         public static void Mano() {
             Global.VenonAtv = false;
