@@ -121,6 +121,7 @@
             pictureBox1.Size = new Size(83, 77);
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // customButton1
             // 
@@ -179,7 +180,7 @@
             // cb_Senha
             // 
             cb_Senha.Appearance = Appearance.Button;
-            cb_Senha.BackgroundImage = Properties.Resources.eye;
+            cb_Senha.BackgroundImage = Properties.Resources.oiobrancofechado;
             cb_Senha.BackgroundImageLayout = ImageLayout.Stretch;
             cb_Senha.Checked = true;
             cb_Senha.CheckState = CheckState.Checked;

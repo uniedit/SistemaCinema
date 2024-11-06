@@ -33,11 +33,11 @@
             txt_Senha2 = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txt_nome = new TextBox();
             label4 = new Label();
             cb_Senha = new CheckBox();
             cb_Senha2 = new CheckBox();
-            maskedTextBox1 = new MaskedTextBox();
+            mkt_cpf = new MaskedTextBox();
             customButton2 = new CustomButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -46,33 +46,33 @@
             // 
             txt_Senha.BackColor = Color.FromArgb(33, 33, 33);
             txt_Senha.BorderStyle = BorderStyle.FixedSingle;
-            txt_Senha.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Senha.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_Senha.ForeColor = Color.White;
             txt_Senha.Location = new Point(20, 357);
             txt_Senha.Name = "txt_Senha";
-            txt_Senha.Size = new Size(290, 29);
+            txt_Senha.Size = new Size(290, 26);
             txt_Senha.TabIndex = 15;
             txt_Senha.TextChanged += txt_Senha_TextChanged;
             // 
             // lbl_Senha
             // 
             lbl_Senha.AutoSize = true;
-            lbl_Senha.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Senha.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_Senha.ForeColor = Color.White;
             lbl_Senha.Location = new Point(20, 333);
             lbl_Senha.Name = "lbl_Senha";
-            lbl_Senha.Size = new Size(60, 21);
+            lbl_Senha.Size = new Size(56, 20);
             lbl_Senha.TabIndex = 14;
             lbl_Senha.Text = "Senha";
             // 
             // lbl_Email
             // 
             lbl_Email.AutoSize = true;
-            lbl_Email.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Email.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_Email.ForeColor = Color.White;
             lbl_Email.Location = new Point(20, 117);
             lbl_Email.Name = "lbl_Email";
-            lbl_Email.Size = new Size(180, 21);
+            lbl_Email.Size = new Size(134, 20);
             lbl_Email.TabIndex = 13;
             lbl_Email.Text = "E-mail ou Usuário";
             // 
@@ -80,11 +80,11 @@
             // 
             txt_Email.BackColor = Color.FromArgb(33, 33, 33);
             txt_Email.BorderStyle = BorderStyle.FixedSingle;
-            txt_Email.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Email.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_Email.ForeColor = Color.White;
             txt_Email.Location = new Point(20, 141);
             txt_Email.Name = "txt_Email";
-            txt_Email.Size = new Size(337, 29);
+            txt_Email.Size = new Size(337, 26);
             txt_Email.TabIndex = 12;
             txt_Email.TextChanged += txt_Email_TextChanged;
             // 
@@ -101,7 +101,7 @@
             // 
             // label1
             // 
-            label1.Font = new Font("JetBrains Mono NL", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(120, 19);
             label1.Name = "label1";
@@ -114,62 +114,62 @@
             // 
             txt_Senha2.BackColor = Color.FromArgb(33, 33, 33);
             txt_Senha2.BorderStyle = BorderStyle.FixedSingle;
-            txt_Senha2.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Senha2.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_Senha2.ForeColor = Color.White;
             txt_Senha2.Location = new Point(20, 429);
             txt_Senha2.Name = "txt_Senha2";
-            txt_Senha2.Size = new Size(290, 29);
+            txt_Senha2.Size = new Size(290, 26);
             txt_Senha2.TabIndex = 21;
             txt_Senha2.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
             label2.Location = new Point(20, 405);
             label2.Name = "label2";
-            label2.Size = new Size(170, 21);
+            label2.Size = new Size(137, 20);
             label2.TabIndex = 20;
             label2.Text = "Confirme a Senha";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
             label3.Location = new Point(20, 189);
             label3.Name = "label3";
-            label3.Size = new Size(140, 21);
+            label3.Size = new Size(123, 20);
             label3.TabIndex = 22;
             label3.Text = "Nome Completo";
             // 
-            // textBox2
+            // txt_nome
             // 
-            textBox2.BackColor = Color.FromArgb(33, 33, 33);
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = Color.White;
-            textBox2.Location = new Point(20, 213);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(337, 29);
-            textBox2.TabIndex = 23;
+            txt_nome.BackColor = Color.FromArgb(33, 33, 33);
+            txt_nome.BorderStyle = BorderStyle.FixedSingle;
+            txt_nome.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_nome.ForeColor = Color.White;
+            txt_nome.Location = new Point(20, 213);
+            txt_nome.Name = "txt_nome";
+            txt_nome.Size = new Size(337, 26);
+            txt_nome.TabIndex = 23;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("JetBrains Mono NL", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Microsoft Sans Serif", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
             label4.Location = new Point(20, 261);
             label4.Name = "label4";
-            label4.Size = new Size(40, 21);
+            label4.Size = new Size(40, 20);
             label4.TabIndex = 24;
             label4.Text = "CPF";
             // 
             // cb_Senha
             // 
             cb_Senha.Appearance = Appearance.Button;
-            cb_Senha.BackgroundImage = (Image)resources.GetObject("cb_Senha.BackgroundImage");
+            cb_Senha.BackgroundImage = Properties.Resources.oiobrancofechado;
             cb_Senha.BackgroundImageLayout = ImageLayout.Stretch;
             cb_Senha.Checked = true;
             cb_Senha.CheckState = CheckState.Checked;
@@ -191,7 +191,7 @@
             // cb_Senha2
             // 
             cb_Senha2.Appearance = Appearance.Button;
-            cb_Senha2.BackgroundImage = (Image)resources.GetObject("cb_Senha2.BackgroundImage");
+            cb_Senha2.BackgroundImage = Properties.Resources.oiobrancofechado;
             cb_Senha2.BackgroundImageLayout = ImageLayout.Stretch;
             cb_Senha2.Checked = true;
             cb_Senha2.CheckState = CheckState.Checked;
@@ -210,17 +210,18 @@
             cb_Senha2.UseVisualStyleBackColor = true;
             cb_Senha2.CheckedChanged += checkBox1_CheckedChanged;
             // 
-            // maskedTextBox1
+            // mkt_cpf
             // 
-            maskedTextBox1.BackColor = Color.FromArgb(33, 33, 33);
-            maskedTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            maskedTextBox1.Font = new Font("JetBrains Mono NL", 11.9999981F);
-            maskedTextBox1.ForeColor = Color.White;
-            maskedTextBox1.Location = new Point(20, 285);
-            maskedTextBox1.Mask = "000\\.000\\.000\\-00";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(157, 29);
-            maskedTextBox1.TabIndex = 28;
+            mkt_cpf.BackColor = Color.FromArgb(33, 33, 33);
+            mkt_cpf.BorderStyle = BorderStyle.FixedSingle;
+            mkt_cpf.Font = new Font("Microsoft Sans Serif", 11.9999981F);
+            mkt_cpf.ForeColor = Color.White;
+            mkt_cpf.Location = new Point(20, 285);
+            mkt_cpf.Mask = "000\\.000\\.000\\-00";
+            mkt_cpf.Name = "mkt_cpf";
+            mkt_cpf.Size = new Size(157, 26);
+            mkt_cpf.TabIndex = 28;
+            mkt_cpf.MaskInputRejected += mkt_cpf_MaskInputRejected;
             // 
             // customButton2
             // 
@@ -234,7 +235,7 @@
             customButton2.FlatAppearance.MouseDownBackColor = Color.FromArgb(132, 132, 132);
             customButton2.FlatAppearance.MouseOverBackColor = Color.FromArgb(61, 61, 61);
             customButton2.FlatStyle = FlatStyle.Flat;
-            customButton2.Font = new Font("JetBrains Mono NL", 11.9999981F);
+            customButton2.Font = new Font("Microsoft Sans Serif", 11.9999981F);
             customButton2.ForeColor = Color.White;
             customButton2.Location = new Point(20, 495);
             customButton2.Name = "customButton2";
@@ -252,11 +253,11 @@
             BackColor = Color.FromArgb(27, 25, 29);
             ClientSize = new Size(377, 571);
             Controls.Add(customButton2);
-            Controls.Add(maskedTextBox1);
+            Controls.Add(mkt_cpf);
             Controls.Add(cb_Senha2);
             Controls.Add(cb_Senha);
             Controls.Add(label4);
-            Controls.Add(textBox2);
+            Controls.Add(txt_nome);
             Controls.Add(label3);
             Controls.Add(txt_Senha2);
             Controls.Add(label2);
@@ -287,11 +288,11 @@
         private TextBox txt_Senha2;
         private Label label2;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txt_nome;
         private Label label4;
         private CheckBox cb_Senha;
         private CheckBox cb_Senha2;
-        private MaskedTextBox maskedTextBox1;
+        private MaskedTextBox mkt_cpf;
         private CustomButton customButton2;
     }
 }

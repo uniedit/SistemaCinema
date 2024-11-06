@@ -7,15 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SistemaCinema.Descrição;
+using static SistemaCinema.Sessões;
 using static System.Windows.Forms.DataFormats;
 
 namespace SistemaCinema {
     public partial class MainMenu : Form {
+        private Form activeForm;
+
         public MainMenu() {
             InitializeComponent();
             //customizeMenu();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+
         }
 
         private void timerMenu_Tick(object sender, EventArgs e) {
@@ -92,11 +97,14 @@ namespace SistemaCinema {
             ControlPaint.DrawSizeGrip(e.Graphics, Color.Transparent, sizeGripRectangle);
         }
 
-        private void AbrirFormulario<MiForm>() where MiForm : Form, new() {
+
+        public void AbrirFormulario<MiForm>() where MiForm : Form, new() {
             Form formulario;
             formulario = panelGlobal.Controls.OfType<MiForm>().FirstOrDefault();
 
-            if (formulario == null) {
+
+            if (formulario == null)
+            {
                 formulario = new MiForm();
                 formulario.TopLevel = false;
                 formulario.FormBorderStyle = FormBorderStyle.None;
@@ -105,13 +113,16 @@ namespace SistemaCinema {
                 panelGlobal.Tag = formulario;
                 formulario.Show();
                 formulario.BringToFront();
-            } else {
+            }
+            else
+            {
                 formulario.BringToFront();
             }
         }
 
         private void btn_um_Click(object sender, EventArgs e) {
             AbrirFormulario<MainMenu>();
+            panelGlobal.Controls.Clear();
             //showSubMenu(panelSubMenuUm);
         }
 
@@ -120,8 +131,9 @@ namespace SistemaCinema {
         }
 
         private void btn_dois_Click(object sender, EventArgs e) {
-            AbrirFormulario<Acesso>();
             //showSubMenu(panelSubMenuDois);
+            panelGlobal.Controls.Clear();
+            AbrirFormulario<Sessões>();
         }
 
         private void button2_Click(object sender, EventArgs e) {
@@ -134,8 +146,17 @@ namespace SistemaCinema {
         }
 
         private void panelGlobal_Paint(object sender, PaintEventArgs e) {
-
+            if (GlobalSessões.Atv == true) {
+                AbrirFormulario<Descrição>();
+                GlobalSessões.Atv = false;
+            }
+            if (Globals.Fechar == true) {
+                AbrirFormulario<MainMenu>();
+                panelGlobal.Controls.Clear();
+                Globals.Fechar = false;
+            }
         }
+
 
         private void button3_Click(object sender, EventArgs e) {
             AbrirFormulario<Acesso>();
@@ -197,7 +218,8 @@ namespace SistemaCinema {
         }
 
         private void btn_tres_Click(object sender, EventArgs e) {
-            AbrirFormulario<perdicao>();
+            panelGlobal.Controls.Clear();
+            AbrirFormulario<Pagamento>();
         }
 
         private void lbl_Theme_Click(object sender, EventArgs e) {

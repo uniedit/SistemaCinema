@@ -22,7 +22,8 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             panelSideMenu = new Panel();
             btn_quatro = new Button();
@@ -68,7 +69,7 @@
             btn_quatro.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 128, 128);
             btn_quatro.FlatAppearance.MouseOverBackColor = Color.Crimson;
             btn_quatro.FlatStyle = FlatStyle.Flat;
-            btn_quatro.Font = new Font("JetBrains Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_quatro.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_quatro.ForeColor = Color.White;
             btn_quatro.Image = Properties.Resources.Close;
             btn_quatro.ImageAlign = ContentAlignment.MiddleLeft;
@@ -89,7 +90,7 @@
             btn_tres.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 128, 128);
             btn_tres.FlatAppearance.MouseOverBackColor = Color.Crimson;
             btn_tres.FlatStyle = FlatStyle.Flat;
-            btn_tres.Font = new Font("JetBrains Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_tres.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_tres.ForeColor = Color.White;
             btn_tres.Image = Properties.Resources.carrinh;
             btn_tres.ImageAlign = ContentAlignment.MiddleLeft;
@@ -129,7 +130,7 @@
             // 
             // lbl_Theme
             // 
-            lbl_Theme.Font = new Font("JetBrains Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Theme.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_Theme.ForeColor = Color.White;
             lbl_Theme.Image = Properties.Resources._11sun;
             lbl_Theme.ImageAlign = ContentAlignment.MiddleLeft;
@@ -149,7 +150,7 @@
             btn_dois.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 128, 128);
             btn_dois.FlatAppearance.MouseOverBackColor = Color.Crimson;
             btn_dois.FlatStyle = FlatStyle.Flat;
-            btn_dois.Font = new Font("JetBrains Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_dois.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_dois.ForeColor = Color.White;
             btn_dois.Image = Properties.Resources.claq;
             btn_dois.ImageAlign = ContentAlignment.MiddleLeft;
@@ -171,7 +172,7 @@
             btn_um.FlatAppearance.MouseDownBackColor = Color.FromArgb(255, 128, 128);
             btn_um.FlatAppearance.MouseOverBackColor = Color.Crimson;
             btn_um.FlatStyle = FlatStyle.Flat;
-            btn_um.Font = new Font("JetBrains Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_um.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_um.ForeColor = Color.White;
             btn_um.Image = Properties.Resources._11inicio_branco;
             btn_um.ImageAlign = ContentAlignment.MiddleLeft;
@@ -197,7 +198,7 @@
             // 
             // lbl_Title
             // 
-            lbl_Title.Font = new Font("JetBrains Mono", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_Title.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_Title.ForeColor = Color.White;
             lbl_Title.Location = new Point(78, 13);
             lbl_Title.Name = "lbl_Title";
@@ -223,7 +224,7 @@
             panelGlobal.Dock = DockStyle.Fill;
             panelGlobal.Location = new Point(218, 0);
             panelGlobal.Name = "panelGlobal";
-            panelGlobal.Size = new Size(557, 452);
+            panelGlobal.Size = new Size(816, 452);
             panelGlobal.TabIndex = 1;
             panelGlobal.Paint += panelGlobal_Paint;
             // 
@@ -232,7 +233,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 29);
-            ClientSize = new Size(775, 452);
+            ClientSize = new Size(1034, 452);
             Controls.Add(panelGlobal);
             Controls.Add(panelSideMenu);
             FormBorderStyle = FormBorderStyle.FixedSingle;
