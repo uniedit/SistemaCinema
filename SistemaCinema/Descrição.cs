@@ -55,26 +55,39 @@ namespace SistemaCinema {
 
         }
 
-        private void customButton6_Click_1(object sender, EventArgs e) {
-
-        }
-
-        private void customButton4_Click(object sender, EventArgs e) {
-
-        }
-
         private void pictureBox2_Click(object sender, EventArgs e) {
         }
 
         public static void Mano() {
             Globals.Fechar = false;
+            Globals.Assentos = false;
         }
 
         public static class Globals {
             public static bool Fechar { get; set; }
+            public static bool Assentos { get; set; }
         }
         private void customButton1_Click(object sender, EventArgs e) {
             Globals.Fechar = true;
+            this.Close();
+        }
+
+        private void customButton3_Click(object sender, EventArgs e) {
+            Globals.Assentos = true;
+            this.Close();
+        }
+
+        private void customButton2_Click(object sender, EventArgs e) {
+            Globals.Assentos = true;
+            this.Close();
+        }
+        private void customButton6_Click_1(object sender, EventArgs e) {
+            Globals.Assentos = true;
+            this.Close();
+        }
+
+        private void customButton4_Click(object sender, EventArgs e) {
+            Globals.Assentos = true;
             this.Close();
         }
     }

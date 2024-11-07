@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SistemaCinema.Assentos;
 using static SistemaCinema.Descrição;
 using static SistemaCinema.Sessões;
 using static System.Windows.Forms.DataFormats;
@@ -154,6 +155,19 @@ namespace SistemaCinema {
                 AbrirFormulario<MainMenu>();
                 panelGlobal.Controls.Clear();
                 Globals.Fechar = false;
+            }
+            if (Globals.Assentos == true) {
+                AbrirFormulario<Assentos>();
+                Globals.Assentos = false;
+            }
+            if (GlobalAssent.Fechar == true) {
+                AbrirFormulario<MainMenu>();
+                panelGlobal.Controls.Clear();
+                GlobalAssent.Fechar = false;
+            }
+            if (GlobalAssent.Assent == true) {
+                AbrirFormulario<Pagamento>();
+                GlobalAssent.Assent = false;
             }
         }
 

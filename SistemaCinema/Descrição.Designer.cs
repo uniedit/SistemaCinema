@@ -127,6 +127,7 @@
             customButton2.Text = "19:98";
             customButton2.TextColor = Color.White;
             customButton2.UseVisualStyleBackColor = false;
+            customButton2.Click += customButton2_Click;
             // 
             // customButton3
             // 
@@ -149,6 +150,7 @@
             customButton3.Text = "12:87";
             customButton3.TextColor = Color.White;
             customButton3.UseVisualStyleBackColor = false;
+            customButton3.Click += customButton3_Click;
             // 
             // customButton4
             // 

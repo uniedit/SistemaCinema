@@ -22,8 +22,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             label1 = new Label();
             customButton2 = new CustomButton();
             customButton1 = new CustomButton();
@@ -65,6 +64,7 @@
             customButton2.Text = "PIX";
             customButton2.TextColor = Color.White;
             customButton2.UseVisualStyleBackColor = false;
+            customButton2.Click += customButton2_Click;
             // 
             // customButton1
             // 
@@ -87,6 +87,7 @@
             customButton1.Text = "Cartão";
             customButton1.TextColor = Color.White;
             customButton1.UseVisualStyleBackColor = false;
+            customButton1.Click += customButton1_Click;
             // 
             // label4
             // 

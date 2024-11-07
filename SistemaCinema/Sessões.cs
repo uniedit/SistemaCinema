@@ -379,5 +379,23 @@ namespace SistemaCinema {
             GlobalSessões.Fechar = true;
             this.Close();
         }
+
+        private void customButton3_Click(object sender, EventArgs e) {
+            GlobalSessões.Atv = true;
+            GlobalSessões.Fechar = true;
+            this.Close();
+        }
+
+        private void customButton5_Click(object sender, EventArgs e) {
+            GlobalSessões.Atv = true;
+            GlobalSessões.Fechar = true;
+            this.Close();
+        }
+
+        private void customButton7_Click(object sender, EventArgs e) {
+            GlobalSessões.Atv = true;
+            GlobalSessões.Fechar = true;
+            this.Close();
+        }
     }
 }

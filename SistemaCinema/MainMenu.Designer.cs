@@ -22,8 +22,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             panelSideMenu = new Panel();
             btn_quatro = new Button();
@@ -56,7 +55,7 @@
             panelSideMenu.Dock = DockStyle.Left;
             panelSideMenu.Location = new Point(0, 0);
             panelSideMenu.Name = "panelSideMenu";
-            panelSideMenu.Size = new Size(218, 452);
+            panelSideMenu.Size = new Size(218, 467);
             panelSideMenu.TabIndex = 0;
             panelSideMenu.Paint += panelSideMenu_Paint;
             // 
@@ -73,7 +72,7 @@
             btn_quatro.ForeColor = Color.White;
             btn_quatro.Image = Properties.Resources.Close;
             btn_quatro.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_quatro.Location = new Point(0, 342);
+            btn_quatro.Location = new Point(0, 357);
             btn_quatro.Name = "btn_quatro";
             btn_quatro.Padding = new Padding(10, 0, 10, 0);
             btn_quatro.Size = new Size(218, 49);
@@ -108,7 +107,7 @@
             panel1.Controls.Add(TsTheme);
             panel1.Controls.Add(lbl_Theme);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 391);
+            panel1.Location = new Point(0, 406);
             panel1.Name = "panel1";
             panel1.Size = new Size(218, 61);
             panel1.TabIndex = 5;
@@ -224,7 +223,7 @@
             panelGlobal.Dock = DockStyle.Fill;
             panelGlobal.Location = new Point(218, 0);
             panelGlobal.Name = "panelGlobal";
-            panelGlobal.Size = new Size(816, 452);
+            panelGlobal.Size = new Size(785, 467);
             panelGlobal.TabIndex = 1;
             panelGlobal.Paint += panelGlobal_Paint;
             // 
@@ -233,7 +232,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 25, 29);
-            ClientSize = new Size(1034, 452);
+            ClientSize = new Size(1003, 467);
             Controls.Add(panelGlobal);
             Controls.Add(panelSideMenu);
             FormBorderStyle = FormBorderStyle.FixedSingle;

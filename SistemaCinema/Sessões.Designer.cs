@@ -187,6 +187,7 @@
             customButton3.Text = "Comprar";
             customButton3.TextColor = Color.White;
             customButton3.UseVisualStyleBackColor = false;
+            customButton3.Click += customButton3_Click;
             // 
             // customButton5
             // 
@@ -209,6 +210,7 @@
             customButton5.Text = "Comprar";
             customButton5.TextColor = Color.White;
             customButton5.UseVisualStyleBackColor = false;
+            customButton5.Click += customButton5_Click;
             // 
             // customButton7
             // 
@@ -231,6 +233,7 @@
             customButton7.Text = "Comprar";
             customButton7.TextColor = Color.White;
             customButton7.UseVisualStyleBackColor = false;
+            customButton7.Click += customButton7_Click;
             // 
             // lbl_Genero3
             // 

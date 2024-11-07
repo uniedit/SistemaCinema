@@ -63,6 +63,7 @@
             // customButton1
             // 
             customButton1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton1.BackColor = Color.FromArgb(39, 39, 39);
             customButton1.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton1.BorderColor = Color.FromArgb(61, 61, 61);
@@ -84,6 +85,7 @@
             // customButton18
             // 
             customButton18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton18.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton18.BackColor = Color.FromArgb(39, 39, 39);
             customButton18.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton18.BorderColor = Color.FromArgb(61, 61, 61);
@@ -105,6 +107,7 @@
             // customButton19
             // 
             customButton19.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton19.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton19.BackColor = Color.FromArgb(39, 39, 39);
             customButton19.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton19.BorderColor = Color.FromArgb(61, 61, 61);
@@ -126,6 +129,7 @@
             // customButton24
             // 
             customButton24.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton24.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton24.BackColor = Color.FromArgb(39, 39, 39);
             customButton24.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton24.BorderColor = Color.FromArgb(61, 61, 61);
@@ -147,6 +151,7 @@
             // customButton2
             // 
             customButton2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton2.BackColor = Color.FromArgb(39, 39, 39);
             customButton2.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton2.BorderColor = Color.FromArgb(61, 61, 61);
@@ -168,6 +173,7 @@
             // customButton3
             // 
             customButton3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton3.BackColor = Color.FromArgb(39, 39, 39);
             customButton3.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton3.BorderColor = Color.FromArgb(61, 61, 61);
@@ -189,6 +195,7 @@
             // customButton4
             // 
             customButton4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton4.BackColor = Color.FromArgb(39, 39, 39);
             customButton4.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton4.BorderColor = Color.FromArgb(61, 61, 61);
@@ -210,6 +217,7 @@
             // customButton5
             // 
             customButton5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton5.BackColor = Color.FromArgb(39, 39, 39);
             customButton5.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton5.BorderColor = Color.FromArgb(61, 61, 61);
@@ -231,6 +239,7 @@
             // customButton6
             // 
             customButton6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton6.BackColor = Color.FromArgb(39, 39, 39);
             customButton6.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton6.BorderColor = Color.FromArgb(61, 61, 61);
@@ -252,6 +261,7 @@
             // customButton7
             // 
             customButton7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton7.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton7.BackColor = Color.FromArgb(39, 39, 39);
             customButton7.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton7.BorderColor = Color.FromArgb(61, 61, 61);
@@ -273,6 +283,7 @@
             // customButton8
             // 
             customButton8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton8.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton8.BackColor = Color.FromArgb(39, 39, 39);
             customButton8.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton8.BorderColor = Color.FromArgb(61, 61, 61);
@@ -294,6 +305,7 @@
             // customButton9
             // 
             customButton9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton9.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton9.BackColor = Color.FromArgb(39, 39, 39);
             customButton9.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton9.BorderColor = Color.FromArgb(61, 61, 61);
@@ -315,6 +327,7 @@
             // customButton10
             // 
             customButton10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton10.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton10.BackColor = Color.FromArgb(39, 39, 39);
             customButton10.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton10.BorderColor = Color.FromArgb(61, 61, 61);
@@ -336,6 +349,7 @@
             // customButton11
             // 
             customButton11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton11.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton11.BackColor = Color.FromArgb(39, 39, 39);
             customButton11.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton11.BorderColor = Color.FromArgb(61, 61, 61);
@@ -357,6 +371,7 @@
             // customButton12
             // 
             customButton12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton12.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton12.BackColor = Color.FromArgb(39, 39, 39);
             customButton12.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton12.BorderColor = Color.FromArgb(61, 61, 61);
@@ -378,6 +393,7 @@
             // customButton13
             // 
             customButton13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton13.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton13.BackColor = Color.FromArgb(39, 39, 39);
             customButton13.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton13.BorderColor = Color.FromArgb(61, 61, 61);
@@ -399,6 +415,7 @@
             // customButton14
             // 
             customButton14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton14.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton14.BackColor = Color.FromArgb(39, 39, 39);
             customButton14.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton14.BorderColor = Color.FromArgb(61, 61, 61);
@@ -420,6 +437,7 @@
             // customButton15
             // 
             customButton15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton15.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton15.BackColor = Color.FromArgb(39, 39, 39);
             customButton15.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton15.BorderColor = Color.FromArgb(61, 61, 61);
@@ -441,6 +459,7 @@
             // customButton16
             // 
             customButton16.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton16.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton16.BackColor = Color.FromArgb(39, 39, 39);
             customButton16.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton16.BorderColor = Color.FromArgb(61, 61, 61);
@@ -462,6 +481,7 @@
             // customButton17
             // 
             customButton17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            customButton17.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             customButton17.BackColor = Color.FromArgb(39, 39, 39);
             customButton17.BackgroundColor = Color.FromArgb(39, 39, 39);
             customButton17.BorderColor = Color.FromArgb(61, 61, 61);
@@ -631,6 +651,7 @@
             customButton21.Text = "Pagamento";
             customButton21.TextColor = Color.White;
             customButton21.UseVisualStyleBackColor = false;
+            customButton21.Click += customButton21_Click;
             // 
             // customButton22
             // 
@@ -653,11 +674,13 @@
             customButton22.Text = "Voltar";
             customButton22.TextColor = Color.White;
             customButton22.UseVisualStyleBackColor = false;
+            customButton22.Click += customButton22_Click;
             // 
             // Assentos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.FromArgb(27, 25, 29);
             ClientSize = new Size(775, 452);
             Controls.Add(customButton22);
