@@ -1,4 +1,4 @@
-### SistemaCinema (Projeto encerrado devido saída do ensino médio >^<)
+### SistemaCinema (Projeto encerrado devido saída do ensino médio >3<)
 
 
 #### Passo 1:
