@@ -14,5 +14,6 @@
 - O código também foi desenvolvido em cima de um bando de dados já existente, qualquer função faltante no código SQL que tem no programa ou vice e versa, provavelmente seja pela diferença de versões do BD e do programa final.
 
 #### Créditos:
-- Créditos ao meu mano [Kaique Carrenho](https://github.com/Nexistenome) que me acompanhou em todo projeto aí 👍, e também arrumou todo banco de dados para ser possível a execução do programa 🙏🙏.
-- Senhor Marcos Antonio, o mesmo que acabou ensinando os métodos para o uso dos códigos SQL dentro da plataforma do C# 🙏.
+- Ao meu mano [Kaique Carrenho](https://github.com/Nexistenome) que me acompanhou em todo projeto aí 👍, e também arrumou todo banco de dados para ser possível a execução do programa 🙏🙏.
+- Ao mano Nicolas que fez o ícone da pipoca 🙏.
+- Ao Senhor Marcos Antonio, o mesmo que acabou ensinando os métodos para o uso dos códigos SQL dentro da plataforma do C# 🙏.
