@@ -15,5 +15,5 @@
 
 #### Créditos:
 - Ao meu mano [Kaique Carrenho](https://github.com/Nexistenome) que me acompanhou em todo projeto aí 👍, e também arrumou todo banco de dados para ser possível a execução do programa 🙏🙏.
-- Ao mano Nicolas que fez o ícone da pipoca 🙏.
+- Ao mano [Nicolas](https://github.com/nicolasruivo) que fez o ícone da pipoca (e ajudou no desenvolvimento do resto do projeto) 🙏.
 - Ao Senhor Marcos Antonio, o mesmo que acabou ensinando os métodos para o uso dos códigos SQL dentro da plataforma do C# 🙏.
